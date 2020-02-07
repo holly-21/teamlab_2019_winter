@@ -2,7 +2,7 @@
 
 ## 학부스터디_마일스톤
 |일정|기간|아웃풋|
-|---|----|---|
+|---|-----|---|
 |Linux Bootcamp,Git & Github|2020.01.02-08|github 페이지 형성 후 README.md에 프로젝트 명 기간, 등 필요내용 추가하기|
 |Crawing with Python|2020.01.09-15|프로젝트에 필요한 데이터 수집을 위한 크롤링코드를 작성하고 데이터는 excel, csv 파일 등등으로 저장하기|
 |Web Bootcam|2020.01.16-22|html, css등을 이용해 웹 front-end 제작|
