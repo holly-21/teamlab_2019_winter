@@ -1,5 +1,5 @@
 # week 2 _ Crawing with Python
-> > 프로젝트에 필요한 데이터 수집을 위한 크롤링코드를 작성하고 데이터는 excel, csv 파일 등으로 저장하기
+프로젝트에 필요한 데이터 수집을 위한 크롤링코드를 작성하고 데이터는 excel, csv 파일 등으로 저장하기
 
 ### 파이썬 복습
 * 단순연산 : +, -, /, *, //, **
@@ -17,11 +17,11 @@
         bool_data = True # 특별한 타입 : True/False (Boolean)
         print(str_data, int_data, float_data, bool_data)
 * 파이썬 활용 예시
-'''
+```
 num1= 2
 num2 = 4
 
 print(num1+num2)
 print(num1-num2)
 print(num1*num2)
-'''
+```
