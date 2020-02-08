@@ -99,3 +99,17 @@
     print(qurd1.width, qurd2.width)
     ```
     >> 10  5
+* 크롤링 핵심코드
+```
+# 라이브러리 불러오기
+import requests
+from bs4 import BeautifulSoup
+# 웹페이지 갖고 오기
+res = requests.get('https://news.v.daum.net/v/20200208060031346')
+# 웹 페이지 파싱하기
+soup = BeautifulSoup(res.content, 'html.parser')
+# 필요한 데이터 추출하기
+mydata = soup.find('h3')
+mydata.get_text()
+```
+결과 : '유통가 "중국과 질긴 악연?"..사드 악몽 벗어날 만하니 \'코로나 쇼크\''
