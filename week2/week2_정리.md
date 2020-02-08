@@ -25,3 +25,14 @@ print(num1+num2)
 print(num1-num2)
 print(num1*num2)
 ```
+```
+r =10
+pi = 3.141592
+
+print("지름은?", r*2)
+print("둘레는?", r*pi*2)
+print("넓이는?", (r**2)*pi)
+```
+결과 : 지름은? 20
+       둘레는? 62.83184
+       넓이는? 314.1592
