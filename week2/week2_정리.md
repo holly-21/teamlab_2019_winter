@@ -67,7 +67,7 @@
   
   클래스 선언
   ```
-class Qurd:
+    class Qurd:
     height=0
     width=0
     color=''
