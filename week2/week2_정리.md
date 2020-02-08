@@ -8,11 +8,20 @@
   예시 : print("Hello world") >> Hello world
          print("I don't like C language") >> I don't like C language
 * 변수(variable)
-> > 변수 : 데이터를 기반으로 컴퓨터에 명령을 내리는 것
-> > 데이터 : 문자 또는 숫자
+  > 변수 : 데이터를 기반으로 컴퓨터에 명령을 내리는 것
+  > 데이터 : 문자 또는 숫자
   예시 : print("hello python")
         str_data = "hello" # 문자열(string)
         int_data = 1 # 숫자 : 정수 (integer)
         float_data = 1.1 # 숫자 : 부동소숫점(float)
         bool_data = True # 특별한 타입 : True/False (Boolean)
         print(str_data, int_data, float_data, bool_data)
+* 파이썬 활용 예시
+'''
+num1= 2
+num2 = 4
+
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+'''
