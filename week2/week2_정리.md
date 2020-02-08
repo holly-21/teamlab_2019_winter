@@ -85,7 +85,7 @@
     qurd2 = Qurd()
     ```
     객체 기능 호출
-```
+    ```
     qurd1.width =10
     qurd1.height=10
     qurd1.color = 'blue'
