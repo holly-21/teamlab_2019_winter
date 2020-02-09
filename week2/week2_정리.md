@@ -113,3 +113,25 @@ mydata = soup.find('h3')
 mydata.get_text()
 ```
 결과 : '유통가 "중국과 질긴 악연?"..사드 악몽 벗어날 만하니 \'코로나 쇼크\''
+* html을 이용한 크롤링
+```
+from bs4 import BeautifulSoup
+html = """
+<html>
+    <body>
+        <h1 id='title'>[1]크롤링이란?</h1>
+        <p class='cssstyle'>웹페이지에서 필요한 데이터를 추출하는 것</p>
+        <p id='body align='center'>파이썬을 중심으로 다양한 웹크롤링 기술 발달</p>
+    </body>
+</html>
+"""
+
+soup = BeautifulSoup(html, "html.parser")
+
+# 태그로 검색하는 방법
+data = soup.find('h1')
+data_2 = soup.find('p')
+print(data)
+print(data.string)
+print(data.get_text())
+```
