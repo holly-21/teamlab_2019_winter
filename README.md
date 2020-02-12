@@ -8,7 +8,7 @@ NAVER 사이트에서 전체 웹툰에 관한 정보를 추출한다. 추출한 
 |---|---|---|
 |Linux Bootcamp,Git & Github|2020.01.02-08|github 페이지 형성 후 README.md에 프로젝트 명 기간, 등 필요내용 추가하기|
 |Crawing with Python|2020.01.09-15|프로젝트에 필요한 데이터 수집을 위한 크롤링코드를 작성하고 데이터는 excel, csv 파일 등등으로 저장하기|
-|Web Bootcam|2020.01.16-22|html, css등을 이용해 웹 front-end 제작|
+|Web Bootcamp|2020.01.16-22|html, css등을 이용해 웹 front-end 제작|
 |Database Bootcamp|2020.01.23-29|mysql을 이용해 데이터를 database화|
 |Django|2020.01.30-02.05|django로 이전에 만들었던 database와 front-end 연결|
 |AWS Bootcamp|2020.02.06-12|aws로 만들었던 시스템 연결 하기|
