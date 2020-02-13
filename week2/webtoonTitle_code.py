@@ -24,4 +24,4 @@ from openpyxl import Workbook
 
 df = pd.DataFrame.from_records(week_lists)
 
-df.to_excel('webtoon.xlsx')
+df.to_excel('webtoonTitle.xlsx')
