@@ -45,8 +45,8 @@ CREATE TABLE IF NOT EXISTS WT_DB.SEARCH(
   ```
   
   * csv 파일을 mysql에 연동하는 코드
-  ``
- LOAD DATA LOCAL INFILE 'C:\Users\holly\Documents\teamlab_2019_winter\week2\webtoonDetail_list.csv'
+ ```
+LOAD DATA LOCAL INFILE 'C:\Users\holly\Documents\teamlab_2019_winter\week2\webtoonDetail_list.csv'
 INTO TABLE WT_DB.WT
 CHARACTER SET utf8
 FIELDS TERMINATED BY ','
