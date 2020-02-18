@@ -31,7 +31,8 @@ def get_whole_detail():
     hrefs = soup.select("dt > a[href]")
     for hre in hrefs:
         h = hre.get('href')
-        hrefs_lists.append(h)
+        hr = 'https://comic.naver.com' + h
+        hrefs_lists.append(hr)
 
     # 웹툰별 제목 받아오기
     titles = soup.select("dt > a[title]")
@@ -66,7 +67,7 @@ def get_details():
     ages_lists = []
 
     for i in range(len(w_detail['url'])):
-        each_url = 'https://comic.naver.com' + w_detail['url'][i]
+        each_url = w_detail['url'][i]
 
         driver.get(each_url)
         source = driver.page_source
@@ -87,11 +88,9 @@ def get_details():
     return detail_list
 
 
-
-
-if __name__=='__main__':
+if __name__ == '__main__':
     # 웹드라이브 열기
-    driver = webdriver.Chrome('./chromedriver')
+    driver = webdriver.Chrome('./chromedriver.exe')
     driver.implicitly_wait(3)
 
     date_lists = []
@@ -107,18 +106,16 @@ if __name__=='__main__':
 
         w_detail = get_whole_detail()
 
-    # 요일별 각 웹툰으로 들어가기
-    each_url = 'https://comic.naver.com' + w_detail['url'][0]
-    driver.get(each_url)
-    source = driver.page_source
-    soup = BeautifulSoup(source,'html.parser')
+    driver.implicitly_wait(1)
 
     # 요일별 전체웹툰 정보와 각 웹툰 정보 합치기
     w_detail.update(get_details())
+
+    driver.implicitly_wait(1)
 
     df = pd.DataFrame(w_detail)
 
     driver.close()
 
     # csv로 저장
-    df.to_csv("webtoonDetail_list.csv")
+    df.to_csv("webtoonDetail_list.csv", encoding="utf-8-sig", index=False)
