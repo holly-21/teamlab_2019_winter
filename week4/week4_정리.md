@@ -57,4 +57,4 @@ IGNORE 1 ROWS;
 ![img_mysql_1](https://user-images.githubusercontent.com/48376471/74754973-c40d8500-52b5-11ea-8c2d-62a72968bfe5.png)
 
 * mysql의 ERD
-![웹툰DB ERD](C:\Dev\workspace\crawling\source\teamlab_crawling\webtoon_crawling\week4\img_mysql_2.png)
+![img_mysql_2](https://user-images.githubusercontent.com/48376471/74755121-02a33f80-52b6-11ea-8a53-9b57e573b8a7.png)
