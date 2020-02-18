@@ -1,5 +1,6 @@
 # week 4 _ Database Bootcamp
-mysql을 이용해 데이터를 database화
+mysql을 이용하여 데이터를 database화하는 것을 목표로 한다.
+
 
 * mysql DB 생성 코드
 ```
@@ -44,7 +45,8 @@ CREATE TABLE IF NOT EXISTS WT_DB.SEARCH(
 	);
   ```
   
-  * csv 파일을 mysql에 연동하는 코드
+  
+ * csv 파일을 mysql에 연동하는 코드
  ```
 LOAD DATA LOCAL INFILE 'C:\Users\holly\Documents\teamlab_2019_winter\week2\webtoonDetail_list.csv'
 INTO TABLE WT_DB.WT
@@ -53,8 +55,10 @@ FIELDS TERMINATED BY ','
 IGNORE 1 ROWS;
 ```
 
+
 * 연동 완료 시 결과
 ![img_mysql_1](https://user-images.githubusercontent.com/48376471/74754973-c40d8500-52b5-11ea-8c2d-62a72968bfe5.png)
+
 
 * mysql의 ERD
 ![img_mysql_2](https://user-images.githubusercontent.com/48376471/74755121-02a33f80-52b6-11ea-8a53-9b57e573b8a7.png)
