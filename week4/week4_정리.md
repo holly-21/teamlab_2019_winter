@@ -55,6 +55,7 @@ IGNORE 1 ROWS;
 
 * 연동 완료 시 결과
 <img src="C:\Dev\workspace\crawling\source\teamlab_crawling\webtoon_crawling\week4\img_mysql_1.png" width="60%">
-
+![웹툰DB 결과](C:\Dev\workspace\crawling\source\teamlab_crawling\webtoon_crawling\week4\img_mysql_1.png)
 * mysql의 ERD
 <img src="C:\Dev\workspace\crawling\source\teamlab_crawling\webtoon_crawling\week4\img_mysql_2.png" width="60%">
+![웹툰DB ERD](C:\Dev\workspace\crawling\source\teamlab_crawling\webtoon_crawling\week4\img_mysql_2.png)
