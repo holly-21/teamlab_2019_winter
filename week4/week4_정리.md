@@ -54,7 +54,7 @@ IGNORE 1 ROWS;
 ```
 
 * 연동 완료 시 결과
-![웹툰DB 결과](./week4/img_mysql_1.png)
+![img_mysql_1](https://user-images.githubusercontent.com/48376471/74754973-c40d8500-52b5-11ea-8c2d-62a72968bfe5.png)
 
 * mysql의 ERD
 ![웹툰DB ERD](C:\Dev\workspace\crawling\source\teamlab_crawling\webtoon_crawling\week4\img_mysql_2.png)
