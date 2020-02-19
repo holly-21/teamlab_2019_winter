@@ -66,14 +66,15 @@ for site in site_list:
 ## html,css로 구축한 front-end (
 
 * 메인 페이지(홈 화면)
-![메인 페이지](https://user-images.githubusercontent.com/48376471/74809273-21deb300-5330-11ea-8bfb-9af5557dfb83.png)
+![메인 페이지](https://user-images.githubusercontent.com/48376471/74810296-6a976b80-5332-11ea-9762-c7b6046d1af2.png)
 
 * 페이지의 기능을 설명하는 화면
-![페이지설명](https://user-images.githubusercontent.com/48376471/74809333-4a66ad00-5330-11ea-8f56-5e5b86e61ca0.png)
+![페이지설명](https://user-images.githubusercontent.com/48376471/74810388-99addd00-5332-11ea-99dc-372d75c0fdb2.png)
 
 * 검색 화면
-![검색 화면](https://user-images.githubusercontent.com/48376471/74809378-68341200-5330-11ea-9c21-80427a786a07.png)
+![검색 화면](https://user-images.githubusercontent.com/48376471/74810396-9e729100-5332-11ea-9430-380a4db9ab6a.png)
 
 * 전체 웹툰 정보를 볼 수 있는 화면
-![전체 웹툰 리스트](https://user-images.githubusercontent.com/48376471/74809461-8c8fee80-5330-11ea-90e6-835a4ea7e0f7.png)
+![전체 웹툰 리스트](https://user-images.githubusercontent.com/48376471/74810433-b34f2480-5332-11ea-826a-da924014a9a3.png)
+
 
