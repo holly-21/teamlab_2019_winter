@@ -1,6 +1,7 @@
 # week 3 _ Web Bootcamp
 html, css등을 이용해 웹 front-end 제작
 
+## 학습 결과
 * 크롤링 핵심코드
 ```
 # 라이브러리 불러오기
@@ -58,3 +59,21 @@ for site in site_list:
         print(item.get_text())
  ```
  결과 : '슈돌' 윌벤져스, 치과 방문..'겁에 질린' 벤틀리→'허세' 윌리엄 [Oh!쎈 컷]
+ 
+ 
+ 
+
+## html,css로 구축한 front-end (
+
+* 메인 페이지(홈 화면)
+![메인 페이지](https://user-images.githubusercontent.com/48376471/74809273-21deb300-5330-11ea-8bfb-9af5557dfb83.png)
+
+* 페이지의 기능을 설명하는 화면
+![페이지설명](https://user-images.githubusercontent.com/48376471/74809333-4a66ad00-5330-11ea-8f56-5e5b86e61ca0.png)
+
+* 검색 화면
+![검색 화면](https://user-images.githubusercontent.com/48376471/74809378-68341200-5330-11ea-9c21-80427a786a07.png)
+
+* 전체 웹툰 정보를 볼 수 있는 화면
+![전체 웹툰 리스트](https://user-images.githubusercontent.com/48376471/74809461-8c8fee80-5330-11ea-90e6-835a4ea7e0f7.png)
+
