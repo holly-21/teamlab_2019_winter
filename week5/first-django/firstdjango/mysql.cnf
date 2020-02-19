@@ -1,0 +1,15 @@
+[client]
+database = WT_DB #DB명
+host = 127.0.0.1 #데이테베이스 주소(IP)
+user = 3306 #데이터베이스 계정
+password = readmysql#계정 비밀번호
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'OPTIONS': {
+            'read_default_file': "path/to/mysql.cnf"),
+        }
+    }
+}

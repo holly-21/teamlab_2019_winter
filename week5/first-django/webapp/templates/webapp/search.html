@@ -1,0 +1,108 @@
+{% extends 'webapp/base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase text-expanded" href="{% url 'index' %}">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase text-expanded" href="{% url 'about' %}">About</a>
+                </li>
+                <li class="nav-item active px-lg-4">
+                    <a class="nav-link text-uppercase text-expanded" href="{% url 'search' %}">Search</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase text-expanded" href="{% url 'list' %}">List</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="box-collapse">
+    <br>
+    <br>
+    <div class="title-box-d">
+        <h3 class="title-d text-center">SEARCH</h3>
+    </div>
+    <br>
+    <br>
+    <br>
+    <span class="close-box-collapse right-boxed ion-ios-close"></span>
+    <div class="container form">
+        <form class="form-a" action="{% url 'result' %}" method="get">
+            <div class="form-row">
+                <div class="col-md-9">
+                    <label for="search_word">
+                        <p class="text-warning">검색어를 입력하세요 (단, 요일은 월,화,수,목,금,토,일 중에서만 입력하세요.)</p>
+                    </label>
+                    <input type="text" class="form-control" id="search_word" placeholder="검색어" name="search_word">
+                </div>
+                <div class="col-md-3">
+                    <label for='search_type'>
+                        <p class="text-warning">검색 조건</p>
+                    </label>
+                    <select class="form-control form-control-a" id='search_type' name="search_type">
+                        <option value="">선택</option>
+                        <option>요일</option>
+                        <option>제목</option>
+                        <option>작가</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <div class="form-row">
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary btn-block">검색하기</button>
+                </div>
+            </div>
+            <br>
+            <br>
+        </form>
+</div>
+</div>
+
+
+
+
+
+
+<!--  <section class="page-section about-heading">-->
+<!--    <div class="container">-->
+<!--      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'img/about.jpg' %}" alt="">-->
+<!--      <div class="about-heading-content">-->
+<!--        <div class="row">-->
+<!--          <div class="col-xl-9 col-lg-10 mx-auto">-->
+<!--            <div class="bg-faded rounded p-5">-->
+<!--              <h2 class="section-heading mb-4">-->
+<!--                <span class="section-heading-upper">Strong Coffee, Strong Roots</span>-->
+<!--                <span class="section-heading-lower">About Our Cafe</span>-->
+<!--              </h2>-->
+<!--              <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>-->
+<!--              <p class="mb-0">We guarantee that you will fall in <em>lust</em> with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+
+
+{% endblock %}
+
+
+
