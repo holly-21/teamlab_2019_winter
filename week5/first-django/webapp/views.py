@@ -41,12 +41,6 @@ def result(request):
     search_word = request.GET.get('search_word')
     search_type = request.GET.get('search_type')
 
-    # w_data = qs.filter(search_word)
-    # if w_data is None:
-    #     context = {
-    #         HttpResponse('검색결과가 존재하지 않습니다.')
-    #     }
-    #     return render(request, 'webapp/result.html', context)
     try:
         if search_type == '작가':
             data = qs.filter(Q(wt_writer__icontains=search_word))
@@ -60,15 +54,8 @@ def result(request):
                 'data': data
             }
             return render(request, 'webapp/result.html', context)
-        # elif search_type == '제목':
-        #     data = qs.filter(Q(wt_title__icontains=search_word))
-        #
-        #     context = {
-        #         'data': data
-        #     }
-        #     return render(request, 'webapp/result.html', context)
+
         else:
-            # search_type == '제목':
             data = qs.filter(Q(wt_title__icontains=search_word))
 
             context = {
@@ -81,5 +68,3 @@ def result(request):
             HttpResponse("검색 결과가 존재하지 않습니다.")
         }
         return render(request, 'webapp/result.html', context)
-
-    #     return HttpResponse("검색 결과가 존재하지 않습니다.")
