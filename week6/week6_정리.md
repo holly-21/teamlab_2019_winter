@@ -9,4 +9,6 @@ aws를 사용하여 지금까지 만들었던 시스템을 연결하는 것을 �
 mysqldump -uroot -p WT_DB>WT_DB.sql
 
 scp -i pem파일위치 -r /home/wonyoung/WT_DB.sql ubuntu@내 퍼블릭 DNS
+
+mysql -u root -p --database=WT_DB < WT_DB.sql
 ```
