@@ -6,7 +6,7 @@ aws를 사용하여 지금까지 만들었던 시스템을 연결하는 것을 �
 
 
 ### AWS 인스턴스 생성
-![AWS](https://user-images.githubusercontent.com/48376471/74895652-928bdb00-53d5-11ea-96bc-5f8a7caef767.png)
+![AWS](https://user-images.githubusercontent.com/48376471/74895756-dda5ee00-53d5-11ea-94ff-e6912138ed50.png)
 
 ### mysqldump를 이용하여 데이터베이스를 원격저장소로 갖고 오기
 ```
@@ -23,4 +23,4 @@ aws 인스턴스 작동
 python manage.py runserver 0:8080
 퍼블릭 DNS로 웹사이트 접속하기
 
-[WEBTOON SEARCH 접속 주소](http://ec2-15-165-160-214.ap-northeast-2.compute.amazonaws.com:8080/)
+[WEBTOON SEARCH 접속하기](http://ec2-15-165-160-214.ap-northeast-2.compute.amazonaws.com:8080/)
