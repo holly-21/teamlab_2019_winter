@@ -5,6 +5,9 @@ aws를 사용하여 지금까지 만들었던 시스템을 연결하는 것을 �
 [[Deploy] Django 프로젝트 배포하기 - 1. AWS](https://nachwon.github.io/django-deploy-1-aws/),2016.10.26
 
 
+
+## aws 장고 배포
+
 ### AWS 인스턴스 생성
 ![AWS](https://user-images.githubusercontent.com/48376471/74895756-dda5ee00-53d5-11ea-94ff-e6912138ed50.png)
 
