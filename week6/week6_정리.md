@@ -3,3 +3,10 @@ aws를 사용하여 지금까지 만들었던 시스템을 연결하는 것을 �
 
 ## 참고 자료
 https://nachwon.github.io/django-deploy-1-aws/
+
+* mysqldump를 이용하여 데이터베이스를 원격저장소로 갖고 오기
+```
+mysqldump -uroot -p WT_DB>WT_DB.sql
+
+scp -i pem파일위치 -r /home/wonyoung/WT_DB.sql ubuntu@내 퍼블릭 DNS
+```
