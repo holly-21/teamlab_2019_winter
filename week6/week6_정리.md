@@ -28,7 +28,7 @@ python manage.py runserver 0:8080
 
 [WEBTOON SEARCH 접속하기](http://ec2-15-165-160-214.ap-northeast-2.compute.amazonaws.com:8080/)
 
-
+<br>
 
 ## crontab을 이용한 주기적 크롤링 실행 자동화
 
