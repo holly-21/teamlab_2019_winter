@@ -7,7 +7,7 @@ import urllib
 import re
 from urllib.request import urlopen
 import selenium
-
+from selenium.webdriver.chrome.options import Options
 import csv
 import pymysql
 import pandas as pd
@@ -116,7 +116,9 @@ def sql_db():
 
 if __name__ == '__main__':
     # 웹드라이브 열기
-    driver = webdriver.Chrome('./chromedriver')
+    options = Options()
+    options.add_argument('--headless')
+    driver = webdriver.Chrome(chrome_options=options, executable_path='/home/ubuntu/workspace/workspace/chromedriver')
     driver.implicitly_wait(3)
 
     date_lists = []
