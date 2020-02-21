@@ -101,7 +101,7 @@ def sql_db():
     dele = "DELETE FROM WT_DB.WT"
     cursor.execute(dele)
     db.commit()
-
+                                                            
     # csv파일 읽어오기
     csv_data = pd.read_csv('webtoonDetail_list.csv', index_col=False)
 
