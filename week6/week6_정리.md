@@ -42,7 +42,7 @@ pymysql.install_as_MySQLdb()
 
 2. 장고 settings.py의 ALLOWED_HOSTS에 '127.0.0.1'을 추가로 입력한다.
 
-3. 서버에 crontab -e를 입력하여 crontab을 세팅한다.
+3. AWS 서버에 crontab -e를 입력하여 crontab을 세팅한다.
 ```
 10 0 * * 1 /home/wonyoung/workspace/total_cron.py >> /home/wonyoung/workspace/cron.log
 ```
