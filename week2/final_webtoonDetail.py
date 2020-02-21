@@ -118,4 +118,4 @@ if __name__ == '__main__':
     driver.close()
 
     # csv로 저장
-    df.to_csv("webtoonDetail_list.csv", encoding="utf-8-sig", index=False)
+    df.to_csv("webtoonDetail_list.csv", index=False)
