@@ -46,7 +46,7 @@ pymysql.install_as_MySQLdb()
 ```
 10 0 * * 1 /home/wonyoung/workspace/total_cron.py >> /home/wonyoung/workspace/cron.log
 ```
-위와 같은 내용을 crontab 세팅창 하단에 입력한다.
+위와 같은 내용을 crontab 세팅창 하단에 입력한다. <br>
 코드 해석 : 매주 월요일마다 오전 0시 10분에 total_cron.py파일을 자동으로 실행하도록 예약한다. 이 실행에 대한 로그를 cron.log에 기록한다.
 
 4. 입력이 잘됐는지 확인하기 위해 서버창에 crontab -l을 입력하고 다음과 같은 결과를 확인할 수 있다.
