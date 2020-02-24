@@ -275,3 +275,5 @@ def sql_db():
 bootstrap의 템플릿을 이용해 기본적인 웹사이트를 구축한다. 
 [bootstrap 사이트](https://startbootstrap.com/themes/)
 ![메인 페이지](https://user-images.githubusercontent.com/48376471/74810296-6a976b80-5332-11ea-9762-c7b6046d1af2.png)
+
+>> 자세한 사항은 [front-end 구축](https://github.com/Wonyoungpark/teamlab_2019_winter/tree/master/week3)참고
