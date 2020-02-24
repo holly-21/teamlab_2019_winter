@@ -275,5 +275,11 @@ def sql_db():
 bootstrap의 템플릿을 이용해 기본적인 웹사이트를 구축한다. 
 [bootstrap 사이트](https://startbootstrap.com/themes/)
 ![메인 페이지](https://user-images.githubusercontent.com/48376471/74810296-6a976b80-5332-11ea-9762-c7b6046d1af2.png)
+> 자세한 사항은 [front-end 구축](https://github.com/Wonyoungpark/teamlab_2019_winter/tree/master/week3)참고
 
->> 자세한 사항은 [front-end 구축](https://github.com/Wonyoungpark/teamlab_2019_winter/tree/master/week3)참고
+## django를 이용하여 database와 front-end 연결하기
+Django를 이용하여 front-end를 동작시킨다.
+Django를 사용할 때 먼저 폴더를 
+> 자세한 사항은 [웹페이지 동작 UI](https://github.com/Wonyoungpark/teamlab_2019_winter/blob/master/week5/week5_%EC%A0%95%EB%A6%AC.md), [Django 전체코드](https://github.com/Wonyoungpark/teamlab_2019_winter/tree/master/week5/first-django)참고
+
+## 
