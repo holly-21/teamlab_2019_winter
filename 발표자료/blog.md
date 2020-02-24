@@ -273,4 +273,4 @@ def sql_db():
 
 ## 웹사이트 front-end 구축하기
 bootstrap의 템플릿을 이용해 기본적인 웹사이트를 구축한다.
-[](https://startbootstrap.com/themes/)
+[bootstrap](https://startbootstrap.com/themes/)
