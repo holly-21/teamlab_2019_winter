@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python으로 webtoon 정보 crawling & 웹사이트 구동
-date: 2020-02-25 14:30:00 +0300
+date: 2020-02-25 12:28:00 +0300
 tags: crawling, selenium, crawling with Python, Web Bootcamp, mysql, django, aws
 category: Crawling with Python
 author: wonyoung park
