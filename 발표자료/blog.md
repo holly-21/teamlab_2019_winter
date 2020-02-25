@@ -275,7 +275,7 @@ def sql_db():
 bootstrap의 템플릿을 이용해 기본적인 웹사이트를 구축한다. 
 [bootstrap 사이트](https://startbootstrap.com/themes/)
 ![메인 페이지](https://user-images.githubusercontent.com/48376471/74810296-6a976b80-5332-11ea-9762-c7b6046d1af2.png)
-> 자세한 사항은 [front-end 구축](https://github.com/Wonyoungpark/teamlab_2019_winter/tree/master/week3)참고
+> 자세한 사항은 [front-end 구축](https://github.com/Wonyoungpark/teamlab_2019_winter/tree/master/week3) 참고
 
 ## django를 이용하여 database와 front-end 연결하기
 Django를 이용하여 front-end를 동작시킨다.
@@ -284,6 +284,8 @@ Django를 사용할 때 먼저 폴더를 생성하고 그 안에 프로젝트파
 urls.py에는 앱이 연결될 수 있는 주소를 작성한다.
 앱에서 views.py는 홈페이지에서 우리에게 보여지는 화면을 구성하는 파일이다.
 template 폴더에는 웹사이트를 구성할 html파일들을 저장한다. 이 html파일은 views.py와 연결시킨다.
-> 자세한 사항은 [웹페이지 동작 UI](https://github.com/Wonyoungpark/teamlab_2019_winter/blob/master/week5/week5_%EC%A0%95%EB%A6%AC.md), [Django 전체코드](https://github.com/Wonyoungpark/teamlab_2019_winter/tree/master/week5/first-django)참고
+> 자세한 사항은 [웹페이지 동작 UI](https://github.com/Wonyoungpark/teamlab_2019_winter/blob/master/week5/week5_%EC%A0%95%EB%A6%AC.md), [Django 전체코드](https://github.com/Wonyoungpark/teamlab_2019_winter/tree/master/week5/first-django) 참고
 
-## AWS
+## AWS를 이용해 Django 배포하기
+
+> 자세한 사항은 [aws 이용 및 주기적 실행 방법](https://github.com/Wonyoungpark/teamlab_2019_winter/blob/master/week6/week6_%EC%A0%95%EB%A6%AC.md) 참고
