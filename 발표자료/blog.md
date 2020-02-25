@@ -279,7 +279,11 @@ bootstrap의 템플릿을 이용해 기본적인 웹사이트를 구축한다.
 
 ## django를 이용하여 database와 front-end 연결하기
 Django를 이용하여 front-end를 동작시킨다.
-Django를 사용할 때 먼저 폴더를 
+Django를 사용할 때 먼저 폴더를 생성하고 그 안에 프로젝트파일과 앱을 생성한다.
+프로젝트 파일의 settings.py에는 생성한 앱에 대한 정보와 database와 연결할 수 있는 주소 등을 작성한다.
+urls.py에는 앱이 연결될 수 있는 주소를 작성한다.
+앱에서 views.py는 홈페이지에서 우리에게 보여지는 화면을 구성하는 파일이다.
+template 폴더에는 웹사이트를 구성할 html파일들을 저장한다. 이 html파일은 views.py와 연결시킨다.
 > 자세한 사항은 [웹페이지 동작 UI](https://github.com/Wonyoungpark/teamlab_2019_winter/blob/master/week5/week5_%EC%A0%95%EB%A6%AC.md), [Django 전체코드](https://github.com/Wonyoungpark/teamlab_2019_winter/tree/master/week5/first-django)참고
 
-## 
+## AWS
